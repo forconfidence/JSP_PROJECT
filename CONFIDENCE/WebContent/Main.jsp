@@ -7,7 +7,7 @@
 	Connection connection;
 	Statement statement;
 	ResultSet resultSet;
-	
+	 
 	String driver = "org.mariadb.jdbc.Driver";
 	String url = "jdbc:mariadb://192.168.219.180:3306/SB_Master?useSSL=false&serverTimezone=UTC";
 	String uid = "root";
