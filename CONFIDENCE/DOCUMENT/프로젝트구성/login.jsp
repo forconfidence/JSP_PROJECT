@@ -8,9 +8,10 @@
 	Statement statement;
 	ResultSet resultSet;
 	
-	String driver = "org.mariadb.jdbc.Driver";
-	String url = "jdbc:mariadb://192.168.219.180:3306/SB_Master?useSSL=false&serverTimezone=UTC";
-	String uid = "root";
+	
+	String driver = "oracle.jdbc.driver.OracleDriver";
+	String url = "jdbc:oracle:company:@localhost:1521:company";
+	String uid = "system";
 	String upw = "1234";
 	String query = "SELECT * FROM MemberInfo";
 %>
